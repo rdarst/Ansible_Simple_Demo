@@ -1,0 +1,12 @@
+---
+- hosts: "10.2.0.190"
+  connection: httpapi
+
+  tasks:
+    - name: add-host or delete-host
+      cp_mgmt_host:
+        color: red
+        name: My test host
+        ip_address: 192.168.191.1
+        state: absent
+        auto_publish_session: true
