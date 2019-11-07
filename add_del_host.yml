@@ -5,7 +5,7 @@
   tasks:
     - name: add-host or delete-host
       cp_mgmt_host:
-        color: blue
+        color: red
         name: My test host
         ip_address: 192.168.191.1
         state: present
