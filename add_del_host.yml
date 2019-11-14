@@ -5,8 +5,8 @@
   tasks:
     - name: add-host or delete-host
       cp_mgmt_host:
-        color: red
-        name: My test host
+        color: blue
+        name: My GitHub Host
         ip_address: 192.168.191.1
         state: present
         auto_publish_session: true
