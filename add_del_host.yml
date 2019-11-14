@@ -1,5 +1,5 @@
 ---
-
+- hosts: checkpoint
   connection: httpapi
 
   tasks:
