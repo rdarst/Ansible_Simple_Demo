@@ -7,6 +7,6 @@
       cp_mgmt_host:
         color: blue
         name: My GitHub Host
-        ip_address: 192.168.191.1
+        ip_address: 192.168.191.2
         state: present
         auto_publish_session: true
