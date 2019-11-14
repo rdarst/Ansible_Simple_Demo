@@ -1,6 +1,4 @@
 ---
-- hosts: "checkpoint"
-  connection: httpapi
 
   tasks:
     - name: add-host or delete-host
