@@ -5,7 +5,7 @@
   tasks:
     - name: add-host or delete-host
       cp_mgmt_host:
-        color: red
+        color: orange
         name: My GitHub Host
         ip_address: 192.168.191.2
         state: present
