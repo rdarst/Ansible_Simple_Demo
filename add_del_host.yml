@@ -1,4 +1,6 @@
 ---
+- hosts: "10.2.0.190"
+  connection: httpapi
 
   tasks:
     - name: add-host or delete-host
