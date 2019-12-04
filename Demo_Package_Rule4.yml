@@ -1,0 +1,15 @@
+---
+- hosts: "10.5.0.84"
+  connection: httpapi
+
+  tasks:
+    - name: Setup Destination for Azure host
+      cp_mgmt_access_rule:
+        layer: "Demo_Package Network"
+        name: "Internal to Internet"
+        position: "4"
+        source: "Internal_Network"
+        destination: "cpx2020-vm (cpx2020-resources)
+        track:
+          type: "Extended Log"
+        action: Accept
