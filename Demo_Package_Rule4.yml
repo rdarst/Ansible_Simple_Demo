@@ -3,7 +3,7 @@
   connection: httpapi
 
   tasks:
-    - name: Setup Destination for Azure host
+    - name: Setup Destination for Azure host Update
       cp_mgmt_access_rule:
         layer: "Demo_Package Network"
         name: "Internal to Internet"
