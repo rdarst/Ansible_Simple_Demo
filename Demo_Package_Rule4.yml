@@ -13,3 +13,4 @@
         track:
           type: "Extended Log"
         action: Accept
+        auto_publish_session: true
